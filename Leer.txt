@@ -1,0 +1,21 @@
+RUTA A LOS MÓDULOS: C:\Users\jfauc\Desktop\CIENCIA DE DATOS e IA\CUATRIMESTRE 5\Procesamiento de Imagenes\TPF_POO
+RUTA AL ENTORNO: C:\Users\jfauc\Desktop\CIENCIA DE DATOS e IA\CUATRIMESTRE 5\Procesamiento de Imagenes\TPF\venv
+RUTA AL PYTHON: C:\Users\jfauc\Desktop\CIENCIA DE DATOS e IA\CUATRIMESTRE 5\Procesamiento de Imagenes\TPF\venv\Scripts\python.exe
+
+
+
+Instrucciones de uso:
+1. Activar entorno virtual:
+python -m venv venv
+..\TPF\venv\Scripts\activate
+..\venv\Scripts\activate (Usar este)
+
+2. Instalar dependencias:
+pip install -r requirements.txt
+o bien:
+pip install -r requirements.txt --no-deps (El flag --no-deps evita que pip intente reinstalar todo desde cero, pero instala los paquetes que faltan según el archivo.)
+
+3. Ejecutar script:
+python main.py
+
+4. Colocar el modelo RealESRGAN_x2.pth dentro de la carpeta 'weights'
